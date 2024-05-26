@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #05B2A8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Elegir_Tipo_Usuario_Controller">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="5.0" layoutY="5.0" prefHeight="290.0" prefWidth="290.0" style="-fx-background-color: #FFFF;">
+         <children>
+            <Button fx:id="Button_Artista" layoutX="37.0" layoutY="130.0" mnemonicParsing="false" onAction="#Sing_in_Artista" prefHeight="40.0" prefWidth="215.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #827B7B; -fx-border-radius: 10; -fx-border-width: 2;" text="Artista">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="Button_Oyente" layoutX="38.0" layoutY="197.0" mnemonicParsing="false" onAction="#Sing_in_Oyente" prefHeight="40.0" prefWidth="215.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #827B7B; -fx-border-radius: 10; -fx-border-width: 2;" text="Oyente">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="29.0" layoutY="53.0" text="¿Qué tipo de usuario">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="120.0" layoutY="81.0" text="eres?">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

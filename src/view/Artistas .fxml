@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Artistas">
+   <children>
+      <Label layoutX="71.0" layoutY="14.0" text="Artistas">
+         <font>
+            <Font name="Microsoft Sans Serif" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="14.0" text="Artistas">
+         <font>
+            <Font name="Microsoft Sans Serif" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="14.0" text="Artistas">
+         <font>
+            <Font name="Microsoft Sans Serif" size="40.0" />
+         </font>
+      </Label>
+      <HBox layoutX="65.0" layoutY="71.0" prefHeight="133.0" prefWidth="862.0" spacing="1.0">
+         <children>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#A$AP_Page" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ASAP.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#TOOL_page" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Tool.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#RHCP_Page" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@RHCPP.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#TOP_page" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@TOP.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#Kedrick_page" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Kedrick.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#Deftones_page" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@DT.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <Label alignment="TOP_CENTER" layoutX="65.0" layoutY="210.0" prefHeight="17.0" prefWidth="133.0" text="A$AP Rocky">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="223.0" layoutY="209.0" prefHeight="17.0" prefWidth="133.0" text="Tool">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="373.0" layoutY="209.0" prefHeight="17.0" prefWidth="133.0" text="Red Hot Chilly Peppers">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="523.0" layoutY="209.0" prefHeight="17.0" prefWidth="133.0" text="Twenty One Pilots">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="673.0" layoutY="209.0" prefHeight="17.0" prefWidth="133.0" text="Kendrick Lamar">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="823.0" layoutY="209.0" prefHeight="17.0" prefWidth="133.0" text="Deftones">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <HBox layoutX="65.0" layoutY="241.0" prefHeight="133.0" prefWidth="862.0" spacing="1.0">
+         <children>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#Future" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Future.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#Metro" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@metro%20icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button minHeight="133.0" mnemonicParsing="false" onMouseClicked="#Michael" prefHeight="133.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="133.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Michael.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <Label alignment="TOP_CENTER" layoutX="72.0" layoutY="380.0" prefHeight="17.0" prefWidth="133.0" text="Future">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="223.0" layoutY="379.0" prefHeight="17.0" prefWidth="133.0" text="Metro Boomin">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="373.0" layoutY="379.0" prefHeight="17.0" prefWidth="133.0" text="Michael Jacson">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

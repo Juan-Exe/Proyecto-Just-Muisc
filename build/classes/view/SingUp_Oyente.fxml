@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="482.0" style="-fx-background-color: #05B2A8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SingUp_Oyente">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="8.0" layoutY="7.0" prefHeight="466.0" prefWidth="466.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="82.0" layoutY="48.0" text="Registrate para empezar a ">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="48.0" text="Registrate para empezar a ">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="48.0" text="Registrate para empezar a ">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="89.0" layoutY="85.0" text="disfrutar y vivir la musica ">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="89.0" layoutY="85.0" text="disfrutar y vivir la musica ">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="89.0" layoutY="85.0" text="disfrutar y vivir la musica ">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="BtRegistrarse" layoutX="160.0" layoutY="295.0" mnemonicParsing="false" onAction="#Registrarse" prefHeight="43.0" prefWidth="145.0" style="-fx-background-color: #05B2A8; -fx-background-radius: 10;" text="Siguiente" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="IngreseUsuario" layoutX="41.0" layoutY="155.0" prefHeight="43.0" prefWidth="385.0" promptText="Nombre@dominio.com" style="-fx-background-color: #FFFFFF; -fx-border-color: #827B7B; -fx-border-radius: 10; -fx-border-width: 2;">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="IngreseContraseña" layoutX="40.0" layoutY="224.0" prefHeight="43.0" prefWidth="385.0" promptText="Contraseña" style="-fx-background-color: #FFFFFF; -fx-border-color: #827B7B; -fx-border-radius: 10; -fx-border-width: 2;">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="41.0" layoutY="135.0" prefHeight="17.0" prefWidth="153.0" text="Dirección de email " textFill="#05b2a8">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="41.0" layoutY="204.0" prefHeight="17.0" prefWidth="153.0" text="Contraseña" textFill="#05b2a8">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="135.0" prefHeight="17.0" prefWidth="153.0" text="Dirección de email " textFill="#05b2a8">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="204.0" prefHeight="17.0" prefWidth="153.0" text="Contraseña" textFill="#05b2a8">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Line endX="71.0" layoutX="151.0" layoutY="374.0" startX="-110.0" />
+            <Line endX="82.0" layoutX="343.0" layoutY="374.0" startX="-100.0" />
+            <Label layoutX="229.0" layoutY="364.0" prefHeight="17.0" prefWidth="7.0" text="o" textFill="#5e5858">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="403.0" text="Si ya portas con una cuenta:" textFill="#5e5858">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="403.0" text="Si ya portas con una cuenta:" textFill="#5e5858">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="193.0" layoutY="403.0" text="Inicia sesión aquí." textFill="#05b2a8">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="Bt_inicio_sesion" layoutX="186.0" layoutY="399.0" mnemonicParsing="false" onAction="#Iniciar_Sesion" style="-fx-background-color: transparent;" text="Inicia sesión aquí." textFill="#05b2a8">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

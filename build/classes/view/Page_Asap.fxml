@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ASAP_Page_Controller">
+   <children>
+      <ImageView fitHeight="355.0" fitWidth="1035.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ASAP%20ROCKY.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="277.0" text="A$AP Rocky" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="277.0" text="A$AP Rocky" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="277.0" text="A$AP Rocky" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="370.0" text="Top Albumes">
+         <font>
+            <Font name="Microsoft Sans Serif" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="370.0" text="Top Albumes">
+         <font>
+            <Font name="Microsoft Sans Serif" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="370.0" text="Top Albumes">
+         <font>
+            <Font name="Microsoft Sans Serif" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="40.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Testing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="220.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Long%20live%20asap.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="40.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#Testing" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: transparent;" />
+      <Button layoutX="220.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#Long_live_Asap" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: transparent;" />
+      <Label layoutX="40.0" layoutY="572.0" prefHeight="17.0" prefWidth="148.0" text="Testing ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="572.0" prefHeight="17.0" prefWidth="148.0" text="Testing ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="572.0" prefHeight="17.0" prefWidth="150.0" text="Testing ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="572.0" text="LONG.LIVE.A$AP ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="572.0" text="LONG.LIVE.A$AP ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="572.0" text="LONG.LIVE.A$AP ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="592.0" text="2018">
+         <font>
+            <Font name="Microsoft Sans Serif" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="592.0" text="2013">
+         <font>
+            <Font name="Microsoft Sans Serif" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseClicked="#White_Pony" prefHeight="642.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Deftones_Page_Controller">
+   <children>
+      <ImageView fitHeight="355.0" fitWidth="1035.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Deftones%20Image.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="277.0" text="Deftones" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="277.0" text="Deftones" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="277.0" text="Deftones" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Sans Serif" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="370.0" text="Top Albumes">
+         <font>
+            <Font name="Microsoft Sans Serif" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="370.0" text="Top Albumes">
+         <font>
+            <Font name="Microsoft Sans Serif" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="370.0" text="Top Albumes">
+         <font>
+            <Font name="Microsoft Sans Serif" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="39.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Koi%20No%20Yokan.png" />
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="220.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Deftones.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="40.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#Koi_No_Yokan" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: transparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="220.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#White_Pony" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: tranparent;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="40.0" layoutY="572.0" text="Koi No Yokan">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="572.0" text="Koi No Yokan">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="572.0" text="Koi No Yokan">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="572.0" text="White Pony">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="572.0" text="White Pony">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="572.0" text="White Pony">
+         <font>
+            <Font name="Microsoft Sans Serif" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="592.0" text="2012">
+         <font>
+            <Font name="Microsoft Sans Serif" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="592.0" text="2000">
+         <font>
+            <Font name="Microsoft Sans Serif" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

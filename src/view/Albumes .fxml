@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Albumes_Controller">
+   <children>
+      <Label layoutX="71.0" layoutY="5.0" text="Rock Hard Rock / Alternativa">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="5.0" text="Rock Hard Rock / Alternativa">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="5.0" text="Rock Hard Rock / Alternativa">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="87.0" layoutY="195.0" prefHeight="17.0" prefWidth="133.0" text="Tool - 10.000 Days">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="263.0" layoutY="195.0" prefHeight="17.0" prefWidth="149.0" text="Twenty One Pilots - Blurryface">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="443.0" layoutY="195.0" prefHeight="17.0" prefWidth="158.0" text="Red Hot Chilly Peppers - The Getaway">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="628.0" layoutY="195.0" prefHeight="17.0" prefWidth="158.0" text="Twenty One Pilots - Koi No Yokan">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="823.0" layoutY="195.0" prefHeight="17.0" prefWidth="133.0" text="Red Hot Chilly Peppers - Californication">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font></Label>
+      <Label layoutX="71.0" layoutY="212.0" text="HIP HOP/RAP">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="212.0" text="HIP HOP/RAP">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="212.0" text="HIP HOP/RAP">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <HBox layoutX="67.0" layoutY="237.0" prefHeight="143.0" prefWidth="899.0" spacing="11.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#WDTY" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@WDTY.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Damn" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Damn.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Mr_Morale" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Mt%20morale.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#LLA" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Long%20live%20asap.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Testing" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Testing.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <Label layoutX="71.0" layoutY="422.0" text="Pop / Just Creators ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="422.0" text="Pop / Just Creators ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="422.0" text="Pop / Just Creators ">
+         <font>
+            <Font name="Microsoft Sans Serif" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="86.0" layoutY="405.0" prefHeight="17.0" prefWidth="133.0" text="Future &amp; Metro Boomin - We">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="271.0" layoutY="405.0" prefHeight="17.0" prefWidth="133.0" text="Kendrick Lamar - Damn">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="446.0" layoutY="405.0" prefHeight="17.0" prefWidth="149.0" text="Kendrick Lamar - Mt Morale and">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="630.0" layoutY="405.0" prefHeight="17.0" prefWidth="149.0" text="A$AP Rocky - LONG.LIVE.A">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <HBox layoutX="67.0" layoutY="29.0" prefHeight="143.0" prefWidth="899.0" spacing="11.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#Days" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@10.000%20Days.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Blurryface" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Blurryface.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#The_Getaway" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@1200x1200bf-60%20(6).jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Koi_No_Yokan" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Koi%20No%20Yokan.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Californication" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Californication.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="67.0" layoutY="447.0" prefHeight="143.0" prefWidth="899.0" spacing="11.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#Thriller" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Thriller.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Lisa" prefHeight="157.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="157.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Lisa%20Grande.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <Label alignment="TOP_CENTER" layoutX="76.0" layoutY="612.0" prefHeight="17.0" prefWidth="158.0" text="Michael Jackson - Thriller">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="261.0" layoutY="612.0" prefHeight="17.0" prefWidth="158.0" text="S_C_O_O_T_0_5 - Lisa">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="823.0" layoutY="405.0" prefHeight="17.0" prefWidth="133.0" text="A$AP Rocky - Testing">
+         <font>
+            <Font name="Microsoft Sans Serif" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
